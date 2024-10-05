@@ -6,6 +6,8 @@ return {
       require "configs.conform"
     end,
   },
+  'nvim-lua/plenary.nvim',
+  'nvim-pack/nvim-spectre'
 
   -- These are some examples, uncomment them if you want to see them work!
   -- {
