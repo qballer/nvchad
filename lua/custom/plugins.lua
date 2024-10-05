@@ -4,6 +4,8 @@ local plugins = {
     opts = {
       ensure_installed = {
         "pyright",
+        "mypy",
+        "ruff"
       },
     },
   },
@@ -15,7 +17,14 @@ local plugins = {
     end,
   },
   'nvim-lua/plenary.nvim',
-  'nvim-pack/nvim-spectre'
+  'nvim-pack/nvim-spectre',
+  {
+    "jose-elias-alvarez/null-ls.nvim",
+    ft = {"python"},
+    opts = function ()
+      return "custom.configs.null-ls"
+    end,
+  }
 
 }
 
