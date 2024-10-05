@@ -14,6 +14,9 @@ local plugins = {
       -- require "custom.configs.lspconfig"
     end,
   },
+  'nvim-lua/plenary.nvim',
+  'nvim-pack/nvim-spectre'
+
 }
 
 return plugins
