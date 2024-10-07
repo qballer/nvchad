@@ -5,7 +5,8 @@ local plugins = {
       ensure_installed = {
         "pyright",
         "mypy",
-        "ruff"
+        "ruff",
+        "black"
       },
     },
   },
